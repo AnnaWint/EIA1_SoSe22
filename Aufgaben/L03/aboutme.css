@@ -17,13 +17,13 @@ nav {
 
 
 
-#portfolio :hover{
+#portfolio :hover {
     color: white;
     text-decoration-line: underline;
 }
 
 
-#aboutme  {
+#aboutme {
     color: white;
     text-decoration-line: underline;
 }
@@ -38,7 +38,7 @@ nav {
     display: flex;
     justify-content: right;
     margin-left: 40px;
-  margin-right: 40px;
+    margin-right: 40px;
 }
 
 a {
@@ -48,9 +48,11 @@ a {
     font-size: 20px;
     text-decoration-line: none;
 }
+
 .nav1 {
     margin: 20px;
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -61,6 +63,7 @@ a {
 .box {
     background-size: cover;
 }
+
 footer {
     background-size: cover;
     height: 400px;
@@ -79,5 +82,8 @@ th {
     padding: 5px 50px;
     text-align: left;
 }
-#about{display: flex;
-justify-content: center;}
+
+#about {
+    display: flex;
+    justify-content: center;
+}
