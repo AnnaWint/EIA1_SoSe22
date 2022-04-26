@@ -17,18 +17,18 @@ nav {
 }
 
 
-#portfolio :hover {
+#portfolio1 :hover {
     color: white;
     text-decoration-line: underline;
 }
 
 
-#aboutme :hover {
+#aboutme1 :hover {
     color: white;
     text-decoration-line: underline;
 }
 
-#contact {
+#contact1 {
     color: white;
     text-decoration-line: underline;
 }
@@ -58,7 +58,7 @@ a {
     margin: 20px;
 }
 
-.uberschrieft {
+.uberschrieft1 {
     display: flex;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
