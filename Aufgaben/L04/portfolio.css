@@ -1,0 +1,220 @@
+.logo {
+    width: 200px;
+    height: 270px;
+    margin-left: 40px;
+
+}
+
+.banner {
+    background-color: black;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: medium;
+    text-align: center;
+    width: 60%;
+    position: fixed;
+    top: 75px;
+    right: -340px;
+    transform: rotate(20deg);
+}
+
+
+nav {
+
+
+    justify-content: space-between;
+    animation-name: slide;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    background-image: url(feder3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 400px;
+
+}
+
+
+
+#portfolio {
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+#aboutme :hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+#contact :hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+
+
+
+a {
+    color: grey;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.nav1 {
+    margin: 20px;
+}
+
+.Ueberschrieft {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+footer {
+    background-size: cover;
+    height: 400px;
+    background-color: #eaeaea
+}
+
+table {
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    border: none;
+}
+
+td,
+th {
+    border: none;
+    padding: 5px 50px;
+    text-align: left;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.ausgrauen img {
+    opacity: 0.5;
+}
+
+.ausgrauen :hover {
+    opacity: unset;
+    transform: scale(1.2)
+}
+
+.ausgrauen1 video {
+    opacity: 0.5;
+}
+
+.ausgrauen1 :hover {
+    opacity: unset;
+    transform: scale(1.2);
+}
+
+#portfolio1 :hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+#aboutme1 :hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+#contact1 {
+    color: white;
+    text-decoration-line: underline;
+}
+
+#name {
+    color: black;
+}
+
+.uberschrieft1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    color: white;
+    background-color: gray;
+    background-size: 70% 30%;
+}
+
+::placeholder {
+    color: white;
+
+}
+
+#message {
+    height: 200px;
+}
+
+#button {
+    width: 200px;
+}
+
+#portfolio2 :hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+#aboutme2 {
+    color: white;
+    text-decoration-line: underline;
+}
+
+#contact2 :hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+img :hover {
+    height: 400px;
+    width: 300px;
+}
+
+img {
+    transition: transform 0.8s;
+}
+
+
+.icon1 a {
+    opacity: 0.2
+}
+
+.icon1 :hover {
+    opacity: unset;
+}
+
+@keyframes slide {
+    0% {background-image: url(feder3.jpg);}
+
+    50%{background-image: url(james2.jpg);}
+
+    100% {background-image: url(drache1.jpg);}
+}
