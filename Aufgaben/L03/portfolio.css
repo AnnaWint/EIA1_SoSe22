@@ -38,9 +38,12 @@ nav {
 
 .wrapper { 
     display: flex;
-    justify-content: right;
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
+    
     
 
 }
