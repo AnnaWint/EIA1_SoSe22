@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
         new Audio("kick.mp3"),
         new Audio("laugh-1.mp3"),
         new Audio("laugh-2.mp3"),
-        new Audio("snare.mp3"), //8
+        new Audio("snare.mp3") //8
     ];
     var activIndex;
     document.querySelector(".blau1").addEventListener("click", playSample);
@@ -33,7 +33,7 @@ window.addEventListener("load", function () {
         else {
             clearInterval(intervalid);
         }
-        playlist2();
+        playundstop();
     }
     var counter = 0;
     var playlist1 = [
@@ -49,7 +49,7 @@ window.addEventListener("load", function () {
             counter = 0;
         }
     }
-    function playlist2() {
+    function playundstop() {
         if (document.getElementById("playbu").classList.contains("fa-play")) {
             document.getElementById("playbu").classList.remove("fa-play");
             document.getElementById("playbu").classList.add("fa-stop");
@@ -59,7 +59,6 @@ window.addEventListener("load", function () {
             document.getElementById("playbu").classList.add("fa-play");
         }
     }
-    ;
     function playaudio(audioToPlay) {
         audioToPlay.play();
     }
@@ -68,12 +67,12 @@ window.addEventListener("load", function () {
         if (document.getElementById("playbu").classList.contains("fa-stop")) {
             playlist();
         }
-        var RemixCounter = 0;
-        var RemixIntervalId = setInterval(function () {
-            RemixCounter++;
+        var remixCounter = 0;
+        var remixIntervalId = setInterval(function () {
+            remixCounter++;
             playaudio(sound[getRandomInt(0, 9)]);
-            if (RemixCounter >= 3) {
-                clearInterval(RemixIntervalId);
+            if (remixCounter >= 3) {
+                clearInterval(remixIntervalId);
             }
         }, 1000);
     }
@@ -83,5 +82,6 @@ window.addEventListener("load", function () {
         return Math.floor(Math.random()
             * (max - min)) + min;
     }
+    //https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/random#erzeugt_eine_ganze_zufallszahl_zwischen_zwei_zahlen
 });
 //# sourceMappingURL=drumpad.js.map
